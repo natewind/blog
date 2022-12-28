@@ -45,10 +45,10 @@
 * [Левые грабят бедных](https://www.youtube.com/watch?v=3Wy2eEvDfAI) (3:34)
 * [Монополии на свободном рынке](https://www.youtube.com/watch?v=i3sNOW2DJEo) (10:35)
 * [Биткоин против государства](https://www.youtube.com/watch?v=SkDhgVGG5lI) (6:09)
-* ~~[Легалайз выгоден наркофобам](https://www.youtube.com/watch?v=jbGJv40wAkE) (11:11)~~ (Private)
+* ~~[Легалайз выгоден наркофобам](https://www.youtube.com/watch?v=jbGJv40wAkE) (11:11)~~ *(Private)*
 * [Грета Тунберг и экология](https://www.youtube.com/watch?v=9HXXbbM9AbM) (4:44)
 * [Монополия на мысли](https://www.youtube.com/watch?v=cBBxaOEwfjM) (16:48)
-* ~~[Объективная журналистика](https://www.youtube.com/watch?v=f7gYGK9c8Xg) (11:53)~~ (Private)
+* ~~[Объективная журналистика](https://www.youtube.com/watch?v=f7gYGK9c8Xg) (11:53)~~ *(Private)*
 
 ## Libertarian Band
 
