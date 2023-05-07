@@ -22,6 +22,7 @@
 * [Почему коммунизм не работает](https://www.youtube.com/watch?v=foWWZd-8ItM) (8:50)
 * [Новый федеративный договор](https://www.youtube.com/watch?v=l-b_sAhK_hU) (6:53)
 * [Государство — это анархия](https://www.youtube.com/watch?v=JRfSZOXi-qs) (11:42)
+* [Что такое либертарианство?](https://www.youtube.com/watch?v=5mF1aNvv0-A) (5:50)
 
 ## Лекции Михаила Светова
 
