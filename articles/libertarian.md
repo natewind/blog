@@ -37,6 +37,7 @@
 * [Новый федеративный договор](https://www.youtube.com/watch?v=-gT9mFUxJpc) (2:17:12)
 * [Домашнее образование (Джастас Уолкер и Михаил Светов)](https://www.youtube.com/watch?v=nevI6cShmxA) (2:17:27)
 * [To Tame a Leviathan: Contract Jurisdictions and Civil Rights](https://www.youtube.com/watch?v=ZjpZ9jV9SiY) (40:34) / [Русская озвучка](https://www.youtube.com/watch?v=y5BioO2J8QI) (40:32)
+* [Либертарианский интернационал](https://www.youtube.com/watch?v=F4o9p4gzQms) (46:57)
 
 ## NAP
 
