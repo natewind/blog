@@ -1,6 +1,6 @@
 # Chinese Remainder Theorem for Human Beings
 
-Two days ago, I had spent several hours trying to understand the Chinese remainder theorem because most explainations I could find are a waste of disk space. It’s either unreadable overcomplicated proofs or practical step-wise algorithms with little to no justification.
+Two days ago, I had spent several hours trying to understand the Chinese remainder theorem because most explainations I could find are a waste of disk space. It’s either unreadable overcomplicated proofs or purely practical step-wise algorithms with little to no justification.
 
 Nobody should have to suffer through explainations that outsource thinking to the reader, so here’s one that doesn’t.
 
