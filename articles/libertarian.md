@@ -24,7 +24,7 @@
 
 ## Лекции Михаила Светова
 
-* [Либертарианство за один урок](https://www.youtube.com/watch?v=qw8Kocb0gbE) (56:42) / ~~[Вопросы и ответы](https://www.youtube.com/watch?v=S1-uOc7Sar8) (1:32:16)~~ *(Deleted)*
+* [Либертарианство за один урок](https://www.youtube.com/watch?v=qw8Kocb0gbE) (56:42) / [Вопросы и ответы](https://www.youtube.com/watch?v=hbAiKsALKPk) (1:32:15)
 * [Почему нельзя доверять государству](https://www.youtube.com/watch?v=Ao2Dqqn3ImE) (2:13:05)
 * [Номенклатурный переворот 90‑х](https://www.youtube.com/watch?v=1rF9xh8cpFI) (2:04:06)
 * [Частное правосудие и пенитенциарная система](https://www.youtube.com/watch?v=W_Ds0kImNPk) (55:56) / [Вопросы и ответы](https://www.youtube.com/watch?v=FI4oDsz234o) (1:33:37)
