@@ -16,4 +16,6 @@
 | [Adorea Longsword Duel](https://www.youtube.com/watch?v=Cn36Pb8z3yI) | [Adorea Olomouc](https://www.youtube.com/c/AdoreaOlomouc) | Longsword | Staged |
 | [The Guards of the Sword](https://www.youtube.com/watch?v=Cob3JMmtctY) | [Akademia Szermierzy](https://www.youtube.com/channel/UCRdamEq6Ij0pRzr3xZDobjw) | Longsword | Demo |
 | [Weapons of HEMA](https://www.youtube.com/watch?v=3mxbD3lRE6o) | [Martin Fabian](https://www.youtube.com/c/MartinFabian) | Mixed | Sparring |
-| [The Light of Life](https://www.youtube.com/watch?v=3vaFgOF7iZU&t=127s) | [Akademia Szermierzy](https://www.youtube.com/channel/UCRdamEq6Ij0pRzr3xZDobjw) | Mixed | Sparring |
+| [The Light of Life][light-of-life] | [Akademia Szermierzy](https://www.youtube.com/channel/UCRdamEq6Ij0pRzr3xZDobjw) | Mixed | Sparring |
+
+[light-of-life]: https://www.youtube.com/watch?v=3vaFgOF7iZU&t=127s
