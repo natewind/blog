@@ -1,6 +1,6 @@
 # Chinese Remainder Theorem for Human Beings
 
-Two days ago, I spent several hours trying to understand the Chinese remainder theorem because most explainations I could find are a waste of disk space. It’s either unreadable overcomplicated proofs or purely practical step-wise algorithms with little to no justification.
+Two days ago, I spent several hours trying to understand the Chinese remainder theorem because most explanations I could find are a waste of disk space. It’s either unreadable overcomplicated proofs or purely practical step-wise algorithms with little to no justification.
 
 Nobody should have to suffer through explainations that outsource thinking to the reader, so here’s one that doesn’t.
 
@@ -10,7 +10,7 @@ Nobody should have to suffer through explainations that outsource thinking to 
 
 Given a system of modular equations:
 
-$$
+```math
 \begin{align*}
 	\left\lbrace
 	\begin{aligned}
@@ -21,7 +21,7 @@ $$
 	\end{aligned}
 	\right.
 \end{align*}
-$$
+```
 
 solve it for $x \pmod{M}$, where:
 
@@ -37,9 +37,9 @@ For every $i$, we need a number that turns into zero modulo any $m$ except $m_
 
 So the first step to building $x$ is:
 
-$$
+```math
 x_M = \sum\limits_{i = 1}^{n} M_i.
-$$
+```
 
 Taking $x_M$ modulo $m_i$ filters out everything but $M_i$.
 
@@ -47,17 +47,17 @@ Now, we don’t need the actual values of $M_i$, as we only use them to indi
 
 However, because we still want our filtering to work, we will divide by multiplying by the inverse $M_i^{-1} \pmod{m_i}$ to ensure it only cancels out modulo $m_i$:
 
-$$
+```math
 x_I = \sum\limits_{i = 1}^{n} M_i \times M_i^{-1}.
-$$
+```
 
 To find each inverse, simply use the [extended Euclidean algorithm](https://en.wikipedia.org/wiki/Extended_Euclidean_algorithm).
 
 And, of course, the last step is to multiply every $1$ by the respective $a_i$:
 
-$$
+```math
 x \equiv \sum\limits_{i = 1}^{n} a_i \times M_i \times M_i^{-1} \pmod{M}.
-$$
+```
 
 $M$ is a multiple of each $m_i$, that is, $M \equiv 0 \pmod{m_i}$, so adding $M$ to $x$ any number of times doesn’t change anything, and we can normalize the answer by taking it modulo $M$.
 
@@ -65,7 +65,7 @@ $M$ is a multiple of each $m_i$, that is, $M \equiv 0 \pmod{m_i}$, so addin
 
 ### Problem
 
-$$
+```math
 \begin{align*}
 	\left\lbrace
 	\begin{aligned}
@@ -76,7 +76,7 @@ $$
 	\end{aligned}
 	\right.
 \end{align*}
-$$
+```
 
 ### Solution
 
