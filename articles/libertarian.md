@@ -42,8 +42,8 @@
 ## NAP
 
 * [~~Налоги — это грабеж~~](https://www.youtube.com/watch?v=jR9QzDGjUQw) (6:43) *(Private)*
-* [Левые грабят бедных](https://www.youtube.com/watch?v=3Wy2eEvDfAI) (3:34)
-* [Монополии на свободном рынке](https://www.youtube.com/watch?v=i3sNOW2DJEo) (10:35)
+* [~~Левые грабят бедных~~](https://www.youtube.com/watch?v=3Wy2eEvDfAI) (3:34) *(Private)*
+* [~~Монополии на свободном рынке~~](https://www.youtube.com/watch?v=i3sNOW2DJEo) (10:35) *(Private)*
 * [~~Биткоин против государства~~](https://www.youtube.com/watch?v=SkDhgVGG5lI) (6:09) *(Private)*
 * [~~Легалайз выгоден наркофобам~~](https://www.youtube.com/watch?v=jbGJv40wAkE) (11:11) *(Private)*
 * [Грета Тунберг и экология](https://www.youtube.com/watch?v=9HXXbbM9AbM) (4:44)
