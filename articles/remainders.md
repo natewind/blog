@@ -2,7 +2,7 @@
 
 Two days ago, I spent several hours trying to understand the Chinese remainder theorem because most explanations I could find are a waste of disk space. It’s either unreadable overcomplicated proofs or purely practical step-wise algorithms with little to no justification.
 
-Nobody should have to suffer through explainations that outsource thinking to the reader, so here’s one that doesn’t.
+Nobody should have to suffer through explanations that outsource thinking to the reader, so here’s one that doesn’t.
 
 ## Algorithm
 
