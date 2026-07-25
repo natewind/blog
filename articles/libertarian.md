@@ -31,6 +31,7 @@
 * [Как государственный стандарт образования лишает шансов ваших детей](https://www.youtube.com/watch?v=MIjsexweLqQ) (1:43:30)
 * [Как открытые государственные границы нарушают свободу ассоциации](https://www.youtube.com/watch?v=OYovZqlqIZU) (33:56)
 * [Либертарианство и охрана окружающей среды](https://www.youtube.com/watch?v=wWZqMDgOeDQ) (2:32:55)
+* [Почему либертарианство подходит всем порядочным людям](https://www.youtube.com/watch?v=WmNTJvdSZDg) (1:03:21)
 * [Урок патриотизма](https://www.youtube.com/watch?v=wArKdsU5XTg) (51:15)
 * [Инструменты пропаганды в XXI веке](https://www.youtube.com/watch?v=oJotifQf00I) (2:24:00)
 * [Новый федеративный договор](https://www.youtube.com/watch?v=-gT9mFUxJpc) (2:17:12)
