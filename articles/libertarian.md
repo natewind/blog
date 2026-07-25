@@ -24,7 +24,7 @@
 ## Лекции Михаила Светова
 
 * [Либертарианство за один урок](https://www.youtube.com/watch?v=qw8Kocb0gbE) (56:42) / [Вопросы и ответы](https://www.youtube.com/watch?v=hbAiKsALKPk) (1:32:15)
-* ~~[Почему нельзя доверять государству](https://www.youtube.com/watch?v=Ao2Dqqn3ImE) (2:13:05)~~ *(private)*
+* [Почему нельзя доверять государству](https://www.youtube.com/watch?v=6eVbkyqr-40) (1:44:03)
 * [Номенклатурный переворот 90‑х](https://www.youtube.com/watch?v=1rF9xh8cpFI) (2:04:06)
 * [Частное правосудие и пенитенциарная система](https://www.youtube.com/watch?v=W_Ds0kImNPk) (55:56) / [Вопросы и ответы](https://www.youtube.com/watch?v=FI4oDsz234o) (1:33:37)
 * [Почему либертарианство выгодно бедным](https://www.youtube.com/watch?v=QNV5CRXR3xY) (1:42:01)
@@ -32,7 +32,7 @@
 * [Как открытые государственные границы нарушают свободу ассоциации](https://www.youtube.com/watch?v=OYovZqlqIZU) (33:56)
 * [Либертарианство и охрана окружающей среды](https://www.youtube.com/watch?v=wWZqMDgOeDQ) (2:32:55)
 * [Урок патриотизма](https://www.youtube.com/watch?v=wArKdsU5XTg) (51:15)
-* ~~[Инструменты пропаганды в XXI веке](https://www.youtube.com/watch?v=9p0QD4kMmM4) (2:22:57)~~ *(private)*
+* [Инструменты пропаганды в XXI веке](https://www.youtube.com/watch?v=oJotifQf00I) (2:24:00)
 * [Новый федеративный договор](https://www.youtube.com/watch?v=-gT9mFUxJpc) (2:17:12)
 * [Домашнее образование (Джастас Уолкер и Михаил Светов)](https://www.youtube.com/watch?v=nevI6cShmxA) (2:17:27)
 * [To Tame a Leviathan: Contract Jurisdictions and Civil Rights](https://www.youtube.com/watch?v=ZjpZ9jV9SiY) (40:34) / [Русская озвучка](https://www.youtube.com/watch?v=y5BioO2J8QI) (40:32)
