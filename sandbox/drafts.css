@@ -1,0 +1,307 @@
+/* *
+{
+	margin: 0;
+	border: 0;
+	padding: 0;
+} */
+
+:root { color-scheme: light; }
+
+/* SCROLLBAR + SELECTION = ===================================================================== */
+
+html { scrollbar-gutter: stable; }
+
+::-webkit-scrollbar { width: 16px; }
+
+::-webkit-scrollbar-track
+{
+	border-radius: 0 !important;
+	background: transparent !important;
+}
+
+body::-webkit-scrollbar-track { background-position-x: calc(100% - 100vw) !important; }
+
+::-webkit-scrollbar-thumb
+{
+	border: 4px solid transparent;
+	border-radius: 50vmin;
+	outline: 1px solid #191919;
+	outline-offset: -4px;
+	background-clip: padding-box !important;
+	background-image: linear-gradient(to right,
+		#585858 0px 1px, #4a4a4a 1px 2px,
+		#494949 2px 3px, #474747 3px 4px,
+		#454545 4px 5px, #434343 5px 6px,
+		#414141 6px 7px, #404040 7px 8px)
+		!important;
+}
+
+*::selection
+{
+	background-color: #0073e5;
+	color: white;
+}
+
+/* body._toc-left  { padding: 0 !important;  } */
+
+/* body
+{
+	display: flex;
+	background-attachment: fixed !important;
+} */
+
+/* body, */
+body::-webkit-scrollbar-track
+{
+	background-color: #404040 !important;
+	background-image:
+		url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAArlBMVEUAAAAsLCwYGBgyMjIuLi4UFBQlJSUcHBw0NDQ/Pz8nJycaGhowMDAhISEfHx8pKSk2NjYjIyM5OTkNDQ07OzsWFhY9PT1BQUFGRkYRERFKSkpISEgPDw8LCwsHBwdMTEwJCQlEREQEBAROTk5XV1dRUVFeXl4CAgJVVVVcXFxTU1NZWVlgYGBiYmJpaWltbW1kZGRxcXFmZmZvb292dnZ4eHhra2uFhYV0dHR6enon69kAAAAAOnRSTlMPDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8Pfl6gHwAACDhJREFUeAGFlwWW9EgSgyOZ0cxVhqKGf5bo/hfbRwPNJ/CzQvqkBKiye2kHPr5ArjdxfiLSE05rAUDMeEvtUk81SswxNnR3EMdDLfr0N8SU8mrbK5h4vHWhx63U+tiNbhmXIle5HJ9NGkOVRZXRdDSMDmM2C4gBuGTFcMBq1TAhSAAceQdsxuaxzgz2810+FqsDVbcLShlpWED95h7jCk5zNwcqNnKhDUpJaQ/nkhObBzztEArQpn9urrFoZEF6e3KtePtDvb9UHnUtvURv4Qpig/KpFBUvH6w5K935tTzBeFueS8maLgGhVCfgBZlPzYhRvXpG0z+jrvARBgPSEHiv2/vPfKLbG90hwIwkQOHhFU4QzKChg2OOihQn6Hw4mVkxpNhz17jtqsU91drmwFhTVp2XGUinYRZ1K8aSW1AOtYnXea9sHKoucQ6lZhEemKo+tUCH++ImfR5J3ZSSW6ygQ+4kgVzjF3JLjFBbAzRVGwvRK1bHU7iwPpvSyAt0cAOTBjIt/ImezuswX2hdsH8afgFV8OXxJOpBKKpKz1Ed46V0hdOu6eRhpACRBJS0x+WchsbCtW38GRk0nLd8nv814gBc96bijYDg6isY/Pe9SgdtgdWsBzG4QOH5KnzbYVZX50ugvb4JW0c6QRIcZGSVvdviCktZVgvCDYHruaTFiKCccvtc8A3g37yoT6pmvuQ+ljfWgCsqMVvhkMd79voeCQF+npdeYicni1ZxnVE8nQsmKwzreLMWsdyCbQDNhhW/YnQoIk1nLxaFJtuSi3W7Hk5dkwo9R/SkGb8GHwwqa1hbARp12LR5jjMikClnVWtG6R56n3CoDCJl7bg5NorS6ExibR9YKK4lqagAe2sULmWqbyNWz5gQep4mESKyJtW+gPJOPWmh40VDRAOkwgjPjvSb3MKsowUp03Zw2g8JDWdVdHfHJqOvK5LNVfC5k+k1oPoYWTKqnKWCPb7yBwwSjy/enkqA8V+JRKzgDCPCoVpy6nC40onjvAywr37Znyu+06ecjBi9tKqmbbD1qw60+U8BjxMXWQaEh7BZSzwu9KTgqZSLOD33rsBP07GjJaSycIBuXd9cJEwPkoKTStkdum6lJQbfHkAjsH5Ik+upX1k9vgKY+PlxM4YpUBRdBnKzICpUvdRh/UdPJvGrMr+u3YNWmSC6lCWi/T6p+gm1YLtL0o/EDiQlmxzuqxrDHBN9PM6Cx01RD5aPjJxx0dhurRsC/jPM2TnzZkpDw6kEPkzMyWXoKnG/iKwA3RGTfWnU4BBdBT15vMrpJHNFdUEqsakKwqK9qE8+nBzQ3ozkPh3S24kjQrUpDk+I4gI8LliX8CnnzpJ/F4jvNSx5KRE+jRpBQ7zqHJCBTmoYl27EqWBhB9dCWdAWTuWJTRfX/tZkhF3rX7K3AQg2yI884tK7fq8aDsmyRteqW60xFsy8Y2CADV8XfMWwlJ+eRhc6lonYrYkwohFOOsfG0jSIK7JqaKSquQaO/cb5GGct0nXscjbNUUt87wW9FeGVTqnnWnw09/twCCYAIN1paYE9Y/EuHPBe9YYpfPlHO+L1liMweK/6h6upn7g9Fq3oFSorXFcdjQX88tHCGjRx6cgjfHQ/J8EteU9TCCqLj+5/mx74FHR/AWWY6UK2Tc0Cikdd3yYYjf0LKOH32FLjdo7nDvdgcGhft57SWcj699h+FXv4yiC/GwwsljDz/b/0dKJdYJUrh2RO8XeDwd+0C5lXX1r+TiJCKqjCZRdp/+igLdidsZnBUyYMgcegiWjItaJTKAuXaylrfd6sB8rYiTFa05XAkGlRclBjn9tUdXDOEBBtgoGPCX9LiBDVidhsY6Ch4bK37i0h4JO+fNO3UxwRYwZgRggxGFrM3/Qt/BUeVWFskPBYjb8aVvq6Pu1/hcdn8IHP6uqvdXcsPUSiibgILCnyrZnXv9YdvKGHPM7rExml+e2A4RduOgJv6PEJfeAx/rZ4TU4RQkMIxAsqaBzZ8uvv2uuSbF/4C9Z5WV4eMsFPC2Q1L37VUPsWhs8UhSS+3yj2/v1GAUecFTTX5ia0TLArpplDB4epKWOzQxVScT5f0RB4a1pc9s6eBXBHIUuxN+W7dH+kg1Tk3gu7DJtIMXykA3y2i1SCuOpuIr68fraL/rqrIBt7lOZ/i+Y15RpWFM2arbenWUNEu9Rdo+PNmB0BmPbsRn3cwoCHGEYbMmDI3Ef0t0gq67euAgP87V8XNjtGDjd2BZ6as6yrivoyTdirHMQNQcVlFfR/8RaqSLljtuS9MPJa3+6xwUmiHx4U39pUYicxoLF8tnRs5Pmc6NYxo0gVhWSlPJYe4D0v36+NP0bzGU37J2sDNpjUzazC7TQE2CpMF1mbl86Wrs4gMeAnUfSxrkqQipQHjhcowBDridFPxMPnHOqKFqgGG9XnHPqTY2A3mdIMvAVRkkkju26pbaTqXh3VXA13uPGeHEt5xgkYIUNVDEDmamy2grkxAXoYaOjwdCt9Al01d/S2Db95Ti0A5ALfF5c6YcH4C7ShKJq84s28tzZ8vw7I4/t1kCws/JDuDFcAd+JzlhEINonXR3vYaDFDXLBeNTMG3gePesL+HiDyJ9X8+/lJdQl+wMHjBxwkwAgGsPPZtgU6Hy29ktBe8MUosBPfSr8oqk+ccaeze+HSCHhIc2v/8Y95tGy0f4cEfb34yepmOCicJM6vQ3s7Zcgx3FQDCQoPBQAtXdtGEzeilARoSNkCKlYEj1QnlEcj2rrTXuUamDbuPFcWTYvG47dTXiOAP1ryq5a9PAPsTsAXLft/Jk0NzNpMD2QAAAAASUVORK5CYII=) !important;
+}
+
+/* ============================================================================================= */
+
+/* #_toc
+{
+	position: sticky;
+	overflow-x: hidden;
+	overflow-y: auto;
+	top: 0;
+	box-shadow: inset -1px 0 0 hsla(0, 0%, 0%, 0.25);
+	border-right: 1px solid hsla(0, 0%, 100%, 0.05) !important;
+	box-sizing: border-box;
+	max-width: fit-content;
+	height: 100vh;
+	padding: 15px;
+	background-color: hsla(0, 0%, 0%, 0.1) !important;
+	font-family: "Garamond Premr Pro Capt" !important;
+	font-size: 17px !important;
+	line-height: unset !important;
+} */
+
+/* #_toc:empty,
+#_toc:has(> div:only-child)
+{
+	display: none;
+} */
+
+/* #_toc ._ul
+{
+	margin-left: 25px !important;
+	padding: 0 !important;
+} */
+
+/* #_toc > ._ul:first-child { padding: 0 !important; } */
+/* #_toc > ._ul:last-child  { padding: 0 !important; } */
+
+/* #_toc ._ul > a */
+/* { */
+	/* display: list-item !important; */
+	/* list-style-type: "\2767\20"; */
+	/* max-width: max-content; */
+	/* padding: 6px 7px 3px 7px !important; */
+	/* border-radius: 5px; */
+	/* color: white; */
+/* } */
+
+/* #_toc ._ul > a:hover
+{
+	background-color: rgba(0, 0, 0, 0.3);
+	box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
+	text-decoration: none;
+} */
+
+/* #_toc > ._ul { margin: 0 !important; } */
+/* #_toc > ._ul > a { display: block !important; font-weight: bold; } */
+
+
+
+
+.markdown-body
+{
+	--padding-side: 80px;
+	--width: 800px;
+	order: 1;
+	margin: 25px auto !important;
+	border: 9px solid transparent !important;
+	border-image:
+		url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAQAAADYWf5HAAAA6UlEQVR4Xl2Pi2rEMAwE16fm1f7/r14v7w4rI0IzLAF7hLxNevBSEMEF5+OilNCsRd8ZMyn+a4NmsOT8WJw1lFbSYgGFzF2bLFoLjTClWjKKGRWpDYAGXUnZ4uhbBUzF3Oe/GG/ue2fn4GgsyXhNgysV2JnrhKEMg4fEZcALmiKbNhBBRFpSyDOj1G4QOVly6O1FV54ZZq8OVygrciDt6JazRgi1ljTPH0gbrPmHPXAbCiDd4GawIjip1TPh9tt2sz24qaCjr/jAb/GBFTbq9KZ7Ke/Cqt8nayUikZKsWZK7Fe6bg5dOUt8fZHWG2BHc+6EAAAAASUVORK5CYII=)
+		9 repeat !important;
+	box-sizing: content-box;
+	min-width: unset;
+	max-width: unset;
+	width: calc(var(--width) - 2 * var(--padding-side));
+	height: fit-content;
+	padding: 65px var(--padding-side);
+	background-color: white;
+	background-clip: padding-box;
+	font: 16px "PT Sans Pro";
+}
+
+.markdown-body > * { margin-bottom: 16px; }
+
+a
+{
+	border-bottom: 1px solid #b2ccf0;
+	text-decoration: none;
+	color: #008ace;
+}
+
+a:has(> img:only-child) { border-bottom: none; }
+
+h1
+{
+	margin-bottom: 32px !important;
+	font-size: 44px;
+	font-family: "Garamond Premr Pro";
+	font-weight: bold;
+	text-align: center;
+
+}
+
+h2, h3, h4, h5, h6
+{
+	font-family: "Garamond Premr Pro";
+	font-variant: small-caps;
+}
+
+h2
+{
+	padding: 8px 0;
+	border-bottom: 1px solid darkgrey;
+}
+
+ul, ol { padding-left: 40px; }
+
+li { line-height: 22px; }
+
+table { border-collapse: collapse; }
+
+th, td
+{
+	border: 1px solid darkgrey;
+	padding: 4px 12px;
+}
+
+tr:nth-child(odd) > td { background: lightgrey; }
+
+table a { border: none; }
+
+td:has(> a:only-child:hover) { background-color: #008ace; }
+td     > a:only-child:hover  { color: white; }
+
+p code,
+mark
+{
+	border-radius: 5px;
+	padding: 2px 5px;
+	box-decoration-break: clone;
+	-webkit-box-decoration-break: clone;
+	font-family: "Ubuntu Mono";
+}
+
+p code
+{
+	background-color: dimgrey;
+	color: white;
+}
+
+/* TODO: Line numbers */
+pre
+{
+	border: 1px solid #e1e4e5;
+	padding: 16px;
+	background-color: #eeffcc;
+}
+
+code { text-shadow: none !important; }
+
+code > .token.function   { color: #00a67d; }
+code > .token.class-name { color: #2e95d3; }
+
+mark { background-color: black; }
+mark:hover { color: white; }
+
+img { max-width: 100%; }
+
+/* DRAFTS =======================================================================================*/
+
+/* [BODY] padding: 75px; */
+/* font-family: "Garamond Premr Pro"; */
+/* font-variant-numeric: oldstyle-nums; */
+/* [HEADERS] font-family: "Patua One"; */
+
+/* .markdown-body > h1 + p::first-letter
+{
+	initial-letter: 3;
+	margin-right: 8px;
+} */
+
+/* [HEADERS] */
+
+/* Hack to avoid putting a header next to initial letter */
+/* .markdown-body > h1 + p + h2
+{
+	clear: left;
+	padding-top: 24px;
+	border-top: 24px solid transparent;
+} */
+
+/* .markdown-body > h1 + p::first-line { font-variant: small-caps; } */
+
+/* [QUOTES] */
+
+.markdown-body blockquote
+{
+	margin: 32px auto;
+	width: fit-content;
+	max-width: 550px;
+	font-size: 19px;
+	font-family: "Garamond Premr Pro";
+
+	display: grid;
+	grid-template-columns: min-content 1fr min-content;
+	column-gap: 14px;
+}
+
+.markdown-body blockquote::before,
+.markdown-body blockquote::after
+{
+	font-size: 6em;
+	height: 41px;
+}
+
+.markdown-body blockquote > *
+{
+	grid-column: 2;
+}
+
+.markdown-body blockquote > *:first-child { margin-top: 25px; }
+.markdown-body blockquote > *:last-child:not(:has(> em:only-child)) { margin-bottom: 5px; }
+
+.markdown-body blockquote:has(> p:last-child > em:only-child)::after
+{
+	position: relative;
+	bottom: 36px;
+}
+
+.markdown-body blockquote::before
+{
+	grid-column-start: 1;
+	content: open-quote;
+	align-self: start;
+}
+
+.markdown-body blockquote::after
+{
+	grid-column-start: 3;
+	content: close-quote;
+	align-self: end;
+}
+
+blockquote > p:last-child:has(> em:only-child)
+{
+	margin-top: 16px;
+	text-align: center;
+}
+
+hr { border-bottom: 1px solid darkgrey; }

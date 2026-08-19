@@ -1,0 +1,13 @@
+li
+{
+	list-style-type: circle;
+
+	cursor: initial;
+	&:has(> ul) { cursor: pointer; }
+
+	&.collapsed
+	{
+		list-style-type: disc;
+		> ul { display: none; }
+	}
+}
