@@ -6,6 +6,7 @@ import markdownItTableOfContents
 // TODO: MathJax for LaTeX!
 // TODO: [CSS] Horizontally scrollable tables (check in Telegram WebView)
 // TODO: Try the 404 redirect method for clean links? /blog/article
+// TODO: Use https://github.com/lyallcooper/justif for paragraph-wise justification
 
 const md = markdownIt();
 const toc_marker = "[[toc]]\n\n";
